@@ -1,0 +1,134 @@
+* {
+  font-family:'Lexend Mega', sans-serif;
+  text-align: center;
+  
+}
+
+h5{
+    font-size: 18.26px;
+}
+
+h1 {
+    font-size: 44px;
+    text-align:center;
+}
+
+ul {
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+a {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 22px;
+    margin: 0px 148px;
+    
+}
+
+
+a:visited { text-decoration: none; color:black;}
+a:hover { text-decoration: none; color:black;}
+a:focus { text-decoration: none; color:black;}
+a:active { text-decoration: none; color:black; }
+
+
+a:hover {
+ cursor: pointer;
+ 
+}
+
+.container1 {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    display:flex;
+ text-align: center;
+ align-items: center;
+
+}
+
+.experience {
+    background-color: white;
+    width:100%;
+    font-size: 33px;
+}
+
+.mobility {
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 33px;
+    padding: 10px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.companyimg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.containerstyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ourteam {
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+}
+
+.imgteam {
+    margin-left: 0;
+    margin-right: 0;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    
+}
+
+h3 {
+    font-size: 25.74px;
+}
+
+.lisa {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.alex {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.omar {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+    
+}
